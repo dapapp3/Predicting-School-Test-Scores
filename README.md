@@ -8,7 +8,7 @@ Models Used: Linear & Logistic Regression, Random Forest, Decision Trees, K-Near
 
 
 
-##Model Optimization
+## Model Optimization
 
 In our first attempt to optimize the model, we created a simple model with two hidden layers and an outer layer. We started with dropping the math and reading scores to predict the writing score and converted the categorical data to numeric data with get dummies. We also split the preprocessed data into a features and target variable by identifying and dropping the writing score as the target variable. Then, we split the preprocessed data into a training and testing dataset and set the random state equal to 58. 
 
