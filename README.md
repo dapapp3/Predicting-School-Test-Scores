@@ -6,7 +6,8 @@ Required Libraries: SQLite, pandas, numpy, matplotlib, seaborn, scikit-learn, an
 
 Models Used: Linear & Logistic Regression, Random Forest, Decision Trees, K-Nearest Neighbors, Support Vector Regression, and Neural Network.
 
-
+## Introduction
+Our project is based on a Kaggle dataset that sampled a group of 1,000 students and summarized their academic performance on 3 standardized tests: math, reading and writing while also providing additional interesting demographic information, such as gender, race/ethnicity, parental level of education, whether or not the student receives free lunch and whether or not the student completed a test prep course. We trained machine learning models using this dataset to attempt to predict what a student’s test scores would be using their other test scores as well as the demographic information.
 
 ## Model Optimization
 
