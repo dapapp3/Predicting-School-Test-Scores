@@ -15,4 +15,17 @@ In our first attempt to optimize the model, we created a simple model with two h
 
 We further created a standard scaler to fit and scale the data. Then, we defined the model by creating two hidden layers. The first hidden layer was set equal to eight (8) with an activation set to “ReLU”. The second hidden layer was set equal to five (5) with an activation of “ReLU” as well. The output layer was set to a unit of one (1) with an activation of “Linear” since we are trying to solve a linear problem. The model was compiled with “loss “equal to “mean_squared_error”, optimizer equal to “adam” and metrics equal to “mse”. After training the model with one hundred (100) epochs, we got an r2 score of about 20%. We decided that this was a very low r2 score since the goal is at least 75%. Therefore, we decided to improve the model further trying other methods to get to a higher r2 score. 
 
+## Visualizations
 
+![image](https://github.com/DanielPapp3/Predicting-School-Test-Scores/assets/95590929/845b8930-ff5d-489a-8fef-3ef3c25ea73e)
+
+The heat map shows us that there is a strong correlation between a student’s score on one exam, and all of their other exams, especially for reading and writing scores. There is a 95% correlation between a reading and writing score, meaning if a student scores very highly on their writing exam, they almost always performed well on their reading exam as well.
+
+
+![image](https://github.com/DanielPapp3/Predicting-School-Test-Scores/assets/95590929/f3a8d804-89f1-4624-a10b-b3a2062fcf77)
+
+In the following cat plots, we found that there isn’t a lot variability in our data when looking at the parental level of education. However, in the cat plot on the right, “math scores vs race/ethnicity”, we can see that there is one race/ethnicity that sticks out as closer to the top, the male, group E demographic.
+
+![image](https://github.com/DanielPapp3/Predicting-School-Test-Scores/assets/95590929/760e8117-b8d1-4fe5-84f8-206d654bcc98)
+
+This last visualization is very similar to the heat plot; the reading and writing scores have a very high correlation as the data points are more closely packed together on the line while the math score has a slightly weaker correlation to the writing scores.
