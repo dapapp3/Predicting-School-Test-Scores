@@ -30,6 +30,9 @@ In the following cat plots, we found that there isn’t a lot variability in our
 
 This last visualization is very similar to the heat plot; the reading and writing scores have a very high correlation as the data points are more closely packed together on the line while the math score has a slightly weaker correlation to the writing scores.
 
+Here are comparisions of some of the models used:
+![model_comparisons](https://github.com/DanielPapp3/Predicting-School-Test-Scores/assets/59705085/4a3b1b6e-da4e-46ca-a8da-af5c6df86508)
+
 ## Conclusion
 
 In conclusion, using demographic data points only to predict the scores does not yield good results, so it’s not enough to make a prediction. The highest R-squared score from using demographic points only was for the writing score which was 0.343, which isn’t close to enough. This means that the best predictor for test scores in one subject are test scores in other subjects. The predictions are even better when you use both the demographic data and the test score data and this is further proven to being a good predictor for the model by the fact that the root mean squared (RMS) error, 3.83, is lower than the standard deviation, 15.02, of the target variable.
