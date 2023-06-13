@@ -29,3 +29,5 @@ In the following cat plots, we found that there isn’t a lot variability in our
 ![image](https://github.com/DanielPapp3/Predicting-School-Test-Scores/assets/95590929/760e8117-b8d1-4fe5-84f8-206d654bcc98)
 
 This last visualization is very similar to the heat plot; the reading and writing scores have a very high correlation as the data points are more closely packed together on the line while the math score has a slightly weaker correlation to the writing scores.
+
+## Conclusion
