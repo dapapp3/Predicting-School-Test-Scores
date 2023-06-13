@@ -36,3 +36,5 @@ Here are R-SQUARED comparisions of some of the models used:
 ## Conclusion
 
 In conclusion, using demographic data points only to predict the scores does not yield good results, so it’s not enough to make a prediction. The highest R-squared score from using demographic points only was for the writing score which was 0.343, which isn’t close to enough. This means that the best predictor for test scores in one subject are test scores in other subjects. The predictions are even better when you use both the demographic data and the test score data and this is further proven to being a good predictor for the model by the fact that the root mean squared (RMS) error, 3.83, is lower than the standard deviation, 15.02, of the target variable.
+![rmvssd](https://github.com/DanielPapp3/Predicting-School-Test-Scores/assets/59705085/fa773a38-8068-41f7-af37-83977a9e80b3)
+
